@@ -8,21 +8,43 @@
   <style>
     /* inline small defaults so the page looks fine even if styles.css fails to load */
     :root{--gap:24px}
-    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;margin:24px;background:#111;color:#eee}
-    h1{margin:0 0 12px;font-size:20px}
-    .grid{display:grid;grid-template-columns:repeat(auto-fit,min(350px,1fr));gap:var(--gap)}
-    .card{background:#0f0f0f;border-radius:8px;padding:8px;border:3px solid #222}
+    body{
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    margin: 24px;
+    background: #111;
+    text-align: center;
+}
+    h1{
+    margin: 0 0 12px;
+   
+}
+    .grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,min(350px,1fr));
+    gap: var(--gap);
+    width: 26em;
+    min-height: 36%;
+}
+    .card{
+    background: #0f0f0f;
+    border-radius: 8px;
+    padding: 8px;
+    border: 3px solid #222;
+    height: 22em;
+}
     .frame{
     width: auto;
-    height: 150%;
+    height: 100%;
     border: 0;
     background: #000;
     padding-bottom: 0%;
 }
     footer{
-    margin-top: 34rem;
-    font-size: 50px;
+    margin-top: 1rem;
+    font-size: 39px;
     opacity: .8;
+    font-style: italic;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "Helvetica";
 }
   </style>
 	
@@ -31,18 +53,18 @@
 </head>
 <body>
   <header>
-    <h1>Adobe Animate Exports</h1>
-    <p>Three HTML5/gifs animations exported from Adobe Animate. Click the title to open a full-size version.</p>
-  </header>
+    <h1>Adobe Animate Exports</h1> </header>
+<br>	
+<br>
+	<p>Three HTML5/gifs animations exported from Adobe Animate. Click the title to open a full-size version. <color: #F60098<color/> </p>
 
   <main class="grid">
     
 
     <section class="card">
       <h2><a href="bloodyravensbig.gif" target="_blank" rel="noopener">Bloody Ravens Album Cover</a></h2>
-      <a href="bloodyravensSQUARE.gif">
       <iframe src="bloodyravensSQUARE.gif" class="frame"></iframe>
-    </a> </section>
+    </section>
 	  
 	  
 <section class="card">
@@ -54,7 +76,8 @@
     <section class="card">
       <h2><a href="T.U.Kbig.gif" target="_blank" rel="noopener">T.U.K.Album Cover</a></h2>
       <a>
-      <iframe class="frame" src="T.U.K.gif" ></iframe></a>    
+      <iframe class="frame" src="T.U.K.gif" ></iframe>
+      </a>    
     </section>
   </main>
 
