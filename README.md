@@ -68,6 +68,9 @@ Add new animation cards by duplicating the <section class="card"> block in the H
 All animations and artwork were created using Adobe Illustrator and Adobe Animate
 by Salvi Silver H.
 
+WEBSITE
+https://salvi-silver.github.io/my-GIFs-website/
+
 📜 License
 
 © 2025 Salvi Silver H. — All rights reserved.
